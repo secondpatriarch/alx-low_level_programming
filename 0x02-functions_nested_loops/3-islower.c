@@ -3,6 +3,8 @@
 /**
  * _islower - checks for lowercase character
  *
+ * @c: the int value to be compared
+ *
  * Return: 1 if c is lowercase, else 0.
  */
 
