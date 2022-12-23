@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks for alphabetic character
  *
- * @c - int value to be compared
+ * @c: int value to be compared
  *
  * Return: 1 if c is a letter, else 0.
  */
