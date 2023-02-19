@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Prints sum of all natural numbers below 1024
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int i, j;
