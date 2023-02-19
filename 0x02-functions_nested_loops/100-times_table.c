@@ -26,27 +26,27 @@ void print_times_table(int n)
 				}
 				else if (res <= 9)
 				{
-					_putchar('0' + res);
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar('0' + res);
 				}
 				else if (res > 99)
 				{
+					_putchar(',');
+					_putchar(' ');
 					_putchar('0' + (res / 100));
 					_putchar('0' + ((res / 10) % 10));
 					_putchar('0' + (res % 10));
-					_putchar(',');
-					_putchar(' ');
 				}
 				else
 				{
-					_putchar('0' + (res / 10));
-					_putchar('0' + (res % 10));
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar('0' + (res / 10));
+					_putchar('0' + (res % 10));
 				}
 			}
 			_putchar('\n');
